@@ -39,4 +39,5 @@ jobs:
       - name: HelloWorld.java
         run:  javac HelloWorld.java
       - name: run javacode
-        run: java HelloWorld.java
+        run: java HelloWorld
+        
