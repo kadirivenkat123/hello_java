@@ -36,3 +36,7 @@ jobs:
         run: docker -v
       - name: terraform version
         run:  terraform --version
+      - name: HelloWorld.java
+        run:  javac HelloWorld.java
+      - name: run javacode
+        run: java HelloWorld.java
